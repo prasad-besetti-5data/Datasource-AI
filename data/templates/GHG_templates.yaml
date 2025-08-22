@@ -1,0 +1,102 @@
+Scope_1_Fugitives:
+  row_uuid: "<uuid>"
+  facility_code: "<facility_code>"
+
+  invoice_no: "<invoice_number>"
+  invoice_date: "<YYYY-MM-DD>"
+
+  start_date: "<YYYY-MM-DD>"
+  end_date: "<YYYY-MM-DD>"
+
+  activity_amount: "<activity_amount>"
+  unit_id: "<unit_id>"
+  emission_type: "<activity_data_type>"
+
+  vehicle_fuel: "<vehicle_name>"
+  number_of_vehicle: "<number_of_vehicles>"
+
+  cost: "<cost>"
+  currency: "<currency>"
+  supplier: "<supplier>"
+
+  description: "<notes>"
+  tag_id:
+    - "<tag1>"
+    - "<tag2>"
+    - "..."
+
+  link: "<evidence_url>"
+  link_name: "<evidence_name>"
+  link_note: "<evidence_note>"
+
+  Updatetype: "System"
+
+Scope_2_PurchasedEnergy:
+  row_uuid: "<uuid>"
+  facility_code: "<facility_code>"
+
+  energy_category: "<energy_category>"
+  amount_of_energy: "<amount_of_energy>"
+  source_data_unit: "<unit>"
+  invoiceSource: "<invoice_source>"
+
+  invoice_no: "<invoice_number>"
+  invoice_date: "<YYYY-MM-DD>"
+  start_date: "<YYYY-MM-DD>"
+  end_date: "<YYYY-MM-DD>"
+
+  is_custom_location: "<true/false>"
+  is_custom_market: "<true/false>"
+  cef_location: "<custom_emission_factor_location>"
+  cef_market: "<custom_emission_factor_market>"
+
+  supplier: "<supplier>"
+  cost: "<cost>"
+  currency: "<currency>"
+
+  emission_type: "<emission_type>"
+  meter_id: "<meter_id>"
+
+  description: "<notes>"
+  tag_id:
+    - "<tag1>"
+    - "<tag2>"
+    - "..."
+
+  link: "<evidence_url>"
+  link_name: "<evidence_name>"
+  link_note: "<evidence_note>"
+
+  Updatetype: "System"
+
+
+Scope_3_1_PurchasedGoods&Services_SpendBasedMethod:
+  row_uuid: "<uuid>"
+  facility_code: "<facility_code>"
+
+  start_date: "<YYYY-MM-DD>"
+  end_date: "<YYYY-MM-DD>"
+
+  is_custom_emission: "<true/false>"
+  custom_emission_factor_id: "<custom_emission_factor_id>"
+
+  pg_activity_type: "<purchased_goods_category>"
+  material_used: "<purchased_good>"
+  usage_type: "<production_process_involved>"
+  amount_of_material: "<quantity_of_goods_purchased>"
+  source_data_unit_id: "<units>"
+
+  calculatorId: 6
+
+  emission_type: "<activity_data_type>"
+  description: "<description>"
+  tag_id:
+    - "<tag1>"
+    - "<tag2>"
+    - "..."
+
+  link: "<evidence_url>"
+  link_name: "<evidence_name>"
+  link_note: "<evidence_note>"
+
+  Updatetype: "System"
